@@ -1,0 +1,127 @@
+header{
+	background: #b5b3b3 url("../images/flywheel.jpg") no-repeat;
+	background-size: cover;
+	padding: 2px;
+	margin-top: 20px;
+}
+
+body{
+	margin:0px 5px;
+	padding: 0px 5px;
+}
+
+h1{
+	color: #ffffff;
+	font-size: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 25px;
+	margin-bottom: 0px;
+}
+
+
+
+nav a{
+	color: #000000;
+	background-color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 15%;
+	height:30px;
+	margin: 4%;
+	margin-top: 2%;
+	opacity: 0.4;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+.active{
+	color: #000000;
+	background-color: #ffffff;
+	opacity: 1;
+
+}
+
+.left{
+	width: 20%;
+	height: 550px;
+	background: #566503;
+	display: inline-block;
+	float:left;
+}
+
+.right{
+	width:75%;
+	display: inline-block;
+	margin: 5px;
+	float:left;
+}
+
+.left img{
+	width: 80%;
+	margin: 30px auto;
+	border: 1.5px solid black;
+	display: block;
+}
+
+table{
+	font-family: arial,Georgia,Serif;
+	width: 90%;
+	margin: 20px auto;
+	color: #545252;
+	border-spacing: 0;
+	border: 0.5px solid #FFFFFF; 
+	font-size: 80%;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+table tr{
+	opacity: 0.8;
+	-webkit-transition: opacity 0.5s ease-in-out;
+  	-moz-transition: opacity 0.5s ease-in-out;
+  	-ms-transition: opacity 0.5s ease-in-out;
+  	-o-transition: opacity 0.5s ease-in-out;
+  	transition: opacity 0.5s ease-in-out;
+	text-align: center; 
+}
+
+table th{
+	color:#FFFFFF;
+	border: 0.5px solid #FFFFFF; 
+	border-bottom: 2px solid #61d061;;
+	border-radius: 5px 5px 0px 0px;
+	padding: 0px 15px;
+	background: -webkit-linear-gradient(#50cc03, #03a042); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#50cc03, #03a042); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#50cc03, #03a042); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#50cc03, #03a042); /* Standard syntax */
+}
+
+table td{
+	color: #545252;
+	background-color:rgba(88,216,2,0.3); 
+	border: 0.5px solid #FFFFFF; 
+	border-radius: 2px;
+	text-shadow: 0.3px 1px 1px #9E9E9E;
+	padding: 0px 15px;
+}
+
+table th:first-child{
+	text-align: left;
+}
+
+table td:first-child{
+	text-align: left; 
+}
+
+table tr:hover{
+	opacity: 1;
+}
+
+
+
+
